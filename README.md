@@ -1,10 +1,10 @@
-# 🛒 Projeto de Cadastro e CRUD de Produtos (Python, Tkinter & SQLite)
+# Projeto de Cadastro e CRUD de Produtos (Python, Tkinter & SQLite)
 
 Este é um projeto simples de aplicação desktop (GUI) para gerenciamento de cadastro de usuários e um CRUD (Create, Read, Update, Delete) de produtos.
 
 O projeto foi desenvolvido em Python, utilizando o ambiente Jupyter Notebook como rascunho inicial, e empacotado para ser executável.
 
-## 🛠️ Tecnologias Utilizadas
+## Tecnologias Utilizadas
 
 * **Linguagem:** Python
 * **Interface Gráfica (GUI):** Tkinter (módulo `tkinter` e `tkinter.ttk`)
@@ -13,7 +13,7 @@ O projeto foi desenvolvido em Python, utilizando o ambiente Jupyter Notebook com
 * **Ambiente de Desenvolvimento:** Jupyter Notebook (`Cadastro de Produtos.ipynb`)
 * **Empacotamento:** Ferramenta para transformar em executável (ex: PyInstaller)
 
-## ✨ Funcionalidades Principais
+## Funcionalidades Principais
 
 O sistema realiza as seguintes operações:
 
@@ -34,7 +34,7 @@ Após o login bem-sucedido, o usuário acessa a tela de cadastro e gerenciamento
 * **DELETE (Deletar):** Permite a exclusão de um registro selecionado.
 * **Filtro/Busca:** Possui campos de entrada que filtram a lista de produtos em tempo real por `NomeProduto` e `Descricao`.
 
-## 📂 Estrutura do Banco de Dados
+## Estrutura do Banco de Dados
 
 O arquivo `Projeto_Compras.db` contém as seguintes tabelas e estruturas:
 
@@ -42,16 +42,3 @@ O arquivo `Projeto_Compras.db` contém as seguintes tabelas e estruturas:
     * Colunas: `ID` (INTEGER, PK), `Nome` (TEXT), `Senha` (TEXT).
 * **Tabela `Produtos`:** Armazena os itens para o CRUD.
     * Colunas: `Id` (INTEGER, PK), `NomeProduto` (TEXT), `Descricao` (TEXT), `Preco` (REAL).
-
-## ⚙️ Como Rodar o Projeto
-
-### 1. Pré-requisitos
-* Python 3.x instalado.
-* Ter o driver **SQLite3 ODBC Driver** instalado no seu sistema.
-
-### 2. Instalação de Dependências
-Crie um arquivo `requirements.txt` com as dependências e instale-as:
-
-```bash
-pip install pyodbc
-# Outras dependências necessárias
